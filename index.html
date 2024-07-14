@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+<script>
+	function showWelcomePopup() {
+		alert("Welcome Explorer!");
+	}
+
+	window.onload = showWelcomePopup;
+</script>
+	<title>Champs of LOL</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	<div class="page">
+		<div class="header">
+			<a href="index.html" id="logo"><img src="images/logo.png" alt="logo" style="height: 50px;"></a>
+			<ul class="navigation">
+				<li class="selected">
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="about.html">About</a>
+				</li>
+				<li>
+					<a href="champs.html">Champs</a>
+				</li>
+				</li>
+				<li>
+					<a href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+		<div class="body">
+			<div class="home">
+				<div class="content">
+					<div class="featured">
+						<div>
+							<p>
+								This website is built for my Final project of the course.
+							</p>
+							<p>
+								This website showcases some champions from <a href="https://www.riot.com">League of Legends</a> Franchisee.
+							</p>
+						</div>
+						<p>
+							I love to play and watch people playing this game. It now also has the mobile version. It's an MMO game and very intense.
+						</p>
+					</div>
+					<div class="section" style="width:100%;">
+						<h3>Champs</h3>
+						<ul>
+							<li>
+								<span>img1</span> <a href="img1.html"><img src="images/img1.jpg" alt="" style="height: 100px;"></a>
+							</li>
+							<li>
+								<span>img2</span> <a href="img2.html"><img src="images/img2.jpg" alt="" style="height: 100px;"></a>
+							</li>
+							<li>
+								<span>img3</span> <a href="img3.html"><img src="images/img3.jpg" alt="" style="height: 100px;"></a>
+							</li>
+							<li>
+								<span>img4</span> <a href="img4.html"><img src="images/img4.jpg" alt="" style="height: 100px;"></a>
+							</li>
+							<li>
+								<span>img5</span> <a href="img5.html"><img src="images/img5.jpg" alt="" style="height: 100px;"></a>
+							</li>
+							<li>
+								<span>img6</span> <a href="img6.html"><img src="images/img6.jpg" alt="" style="height: 100px;"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="sidebar">
+					<ul>
+						<li>
+							<h3>Captcha</h3>
+							<form id="captchaForm">
+								<label for="captcha">Please solve the following addition:</label>
+								<div id="captcha" style="font-size: 24px;"></div>
+								<input type="text" id="captchaInput" required>
+								<button type="submit">Submit</button>
+								<p id="captchaResult"></p>
+							</form>
+						</li>
+					</ul>
+				</div>
+
+				<script>
+					// Generate random addition problem
+					function generateCaptcha() {
+						var num1 = Math.floor(Math.random() * 10) + 1;
+						var num2 = Math.floor(Math.random() * 10) + 1;
+						var sum = num1 + num2;
+						return num1 + " + " + num2 + " = ";
+					}
+
+					// Display captcha
+					document.getElementById("captcha").textContent = generateCaptcha();
+
+					// Validate user's answer
+					document.getElementById("captchaForm").addEventListener("submit", function(event) {
+						event.preventDefault();
+						document.getElementById("captchaResult").textContent = "You are human! It doesn't matter if you are right or wrong! :)";
+						document.getElementById("captcha").textContent = generateCaptcha();
+						document.getElementById("captchaInput").value = "";
+					});
+				</script>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="about">
+				<h3>About</h3>
+				<div>
+					<a href="about.html"><img src="images/img3.jpg" alt="" style="height: 100px;"></a>
+					<p>
+						This website is built for my final website project for the course. Hope you liked it and give me the full  marks. Thank You in advance:)
+					</p>
+					</div>
+			</div>
+			<div class="contact">
+				<h3>Contact</h3>
+				<ul>
+					<li>
+						<span>Location :</span>
+						<p>
+							123-xxxx shibuya shinjuku tokyo
+						</p>
+					</li>
+					<li>
+						<span>Email :</span>
+						<p>
+							s23229532@al.tiu.ac.jp
+						</p>
+					</li>
+					<li>
+						<span>Phone :</span>
+						<p>
+							000 xxxx xxxx
+						</p>
+					</li>
+				</ul>
+			</div>
+			<div class="connect">
+				<a href="https://twitter.com/leagueoflegends" id="twitter">twitter</a> <a href="https://facebook.com/leagueoflegends" id="facebook">facebook</a> 
+			</div>
+			<p class="footnote">
+				&#169; CHOW NAHEEAN; 23229532; TIU
+			</p>
+		</div>
+	</div>
+</body>
+</html>

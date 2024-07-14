@@ -1,0 +1,1512 @@
+/* Website template by freewebsitetemplates.com */
+/*------------------------- Layout styles ------------------------*/
+body {
+	margin:0;
+	background-color:#e6e7e8;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a {
+	outline:none;
+}
+a img {
+	border:0;
+	display:block;
+}
+.page {
+	width:960px;
+	margin:0 auto;
+}
+p a:hover {
+	color:#ff8b00!important;
+}
+/*------------------------- Header ------------------------*/
+.header {
+	background:url(../images/bg-header.jpg) no-repeat;
+	height:auto;
+	margin:0 0 27px;
+	overflow:hidden;
+}
+.header a#logo {
+	display:inline-block;
+	float:left;
+	height:62px;
+	margin:0;
+	width:258px;
+}
+.header ul.navigation {
+	float:right;
+	height:auto;
+	list-style:none;
+	margin:0;
+	overflow:hidden;
+	padding:0;
+}
+.header ul.navigation li {
+	background:url(../images/bg-nav.jpg) no-repeat left top;
+	float:left;
+}
+.header ul.navigation li.selected {
+	background:url(../images/bg-nav-selected2.jpg) repeat-x;
+}
+.header ul.navigation li a {
+	color:#f0f0f0;
+	display:block;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:15px;
+	height:68px;
+	letter-spacing:.075em;
+	line-height:62px;
+	padding:0 22px;
+	text-decoration:none;
+}
+.header ul.navigation li.selected a {
+	background:url(../images/bg-nav-selected.png) no-repeat center 63px;
+	color:#fff;
+}
+.header ul.navigation li a:hover {
+	color:#fff;
+}
+/*------------------------- Body Sidebar Content ------------------------*/
+.body .home .content {
+	float:left;
+	margin:0 20px 0 0;
+	width:610px;
+}
+.body .home .content .featured div {
+	background:url(../images/img1.jpg) no-repeat;
+	height:390px;
+	width:610px;
+}
+.body .home .content .featured div p:first-child {
+	color:#fff;
+	float:right;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:22px;
+	line-height:36px;
+	margin:20px 26px 0 0;
+	text-align:right;
+	width:235px;
+}
+.body .home .content .featured div p:first-child a:hover {
+	color: #FF8B00;
+}
+.body .home .content .featured div p {
+	clear:both;
+	color:#fff;
+	float:right;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	line-height:36px;
+	margin:38px 25px 0 0;
+	text-align:right;
+	width:244px;
+}
+.body .home .content .featured p {
+	color:#444;
+	font-size:14px;
+	line-height:24px;
+	margin:16px 0 0;
+}
+.body .home .content .section {
+	margin:52px 0 0;
+}
+.body .home .content .section h3 {
+	background:url(../images/bg-title.png) no-repeat;
+	color:#fff;
+	font-size:20px;
+	font-weight:700;
+	height:60px;
+	letter-spacing:.025em;
+	line-height:58px;
+	margin:0 0 0 20px;
+	position:relative;
+	text-align:center;
+	width:208px;
+}
+.body .home .content .section ul {
+	background-color:#fff;
+	border:1px solid #dfe1e4;
+	border-radius:10px;
+	list-style:none;
+	margin:-20px 0 0;
+	overflow:hidden;
+	padding:45px 2px 0 20px;
+}
+.body .home .content .section ul li {
+	float:left;
+	margin:0 20px 26px 0;
+}
+.body .home .content .section ul li span {
+	background:url(../images/bg-instruments-title.png) no-repeat left 0;
+	color:#fff;
+	display:block;
+	font-size:14px;
+	height:24px;
+	letter-spacing:.025em;
+	line-height:22px;
+	text-decoration:none;
+	text-indent:8px;
+	width:111px;
+}
+.body .home .sidebar {
+	background-color:#fff;
+	border:1px solid #dfe1e4;
+	border-radius:10px;
+	float:right;
+	width:327px;
+}
+.body .home .sidebar ul {
+	list-style:none;
+	margin:0;
+	overflow:hidden;
+	padding:13px 0 0;
+}
+.body .home .sidebar ul li:first-child {
+	border:0;
+	float:none;
+	padding-top:41px;
+	width:auto;
+}
+.body .home .sidebar ul li {
+	border-left:1px solid #DFE1E4;
+	border-top:1px solid #DFE1E4;
+	float:left;
+	margin:0 0 0 -1px;
+	min-height:231px;
+	padding:39px 13px 0 20px;
+	position:relative;
+	width:130px;
+}
+.body .home .sidebar ul li:first-child span {
+	border-bottom:2px solid #ff8b00;
+	color:#6b7073;
+	display:inline;
+	font-size:14px;
+	left:0;
+	letter-spacing:.05em;
+	line-height:24px;
+	padding:0 0 1px 17px;
+	position:absolute;
+	top:0;
+	width:70px;
+}
+.body .home .sidebar ul li:first-child h2 {
+	color:#444;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	font-weight:400;
+	letter-spacing:.05em;
+	line-height:24px;
+	margin:0 0 5px;
+}
+.body .home .sidebar ul li span {
+	border-bottom:2px solid #ff8b00;
+	color:#6b7073;
+	display:inline;
+	font-size:14px;
+	left:0;
+	letter-spacing:.05em;
+	line-height:24px;
+	padding:0 0 3px 17px;
+	position:absolute;
+	top:12px;
+	width:70px;
+}
+.body .home .sidebar ul li h2 {
+	color:#444;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	font-weight:400;
+	letter-spacing:.05em;
+	line-height:24px;
+	margin:14px 0 0;
+}
+.body .home .sidebar ul li h2 a {
+	color:#6B7073;
+	font-family:Arial, Helvetica, sans-serif;
+	display:inline;
+	margin:0;
+	text-decoration:underline;
+}
+.body .home .sidebar ul li:first-child a {
+	display:inline;
+	text-decoration:underline;
+}
+.body .home .sidebar ul li a {
+	border:0;
+	display:block;
+	margin:20px 0 0;
+	padding:0;
+}
+.body .home .sidebar ul li:first-child p {
+	margin:12px 0 25px;
+}
+.body .home .sidebar ul li p {
+	color:#6b7073;
+	font-size:14px;
+	letter-spacing:.05em;
+	line-height:24px;
+	margin:0;
+}
+.body .home .sidebar ul li a.more {
+	display:inline;
+	font-size:14px;
+	text-decoration:none;
+}
+.body .home .sidebar a {
+	border-top:1px solid #DFE1E4;
+	color:#6b7073;
+	display:block;
+	font-size:12px;
+	letter-spacing:.05em;
+	line-height:18px;
+	padding:7px 0;
+	text-align:center;
+	text-decoration:none;
+}
+.body .about div {
+	background-color:#FFF;
+	border:1px solid #DFE1E4;
+	border-radius:10px 10px 10px 10px;
+	float:left;
+	margin:0 21px 0 0;
+	padding:0 0 33px;
+	width:587px;
+}
+.body .about div div {
+	border-bottom:0;
+	border-left:0;
+	border-radius:0 0 10px 10px;
+	border-right:0;
+	border-top:1px solid #DFE1E4;
+	padding:0;
+}
+.body .about div div:first-child h1 {
+	margin-top:13px;
+}
+.body .about div div h1 {
+	color:#ec7500;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:30px;
+	font-weight:400;
+	letter-spacing:.025em;
+	line-height:48px;
+	margin:10px 20px 0;
+}
+.body .about div div p {
+	color:#6b7073;
+	font-size:14px;
+	letter-spacing:.05em;
+	line-height:24px;
+	margin:11px 20px 19px;
+	text-align:justify;
+}
+.body .about div.sidebar {
+	background:none;
+	border:0;
+	margin:0;
+	width:348px;
+}
+.body .about div.sidebar ul:first-child {
+	border-radius:10px;
+	list-style:none;
+	margin:0;
+	overflow:hidden;
+	padding:0;
+}
+.body .about div.sidebar ul:first-child li:first-child {
+	border:0;
+	height:88px;
+}
+.body .about div.sidebar ul:first-child li {
+	background-color:#d0d4d7;
+	border-top:1px solid #dfe1e4;
+	height:90px;
+	overflow:hidden;
+}
+.body .about div.sidebar ul:first-child li.last {
+	height:85px;
+}
+.body .about div.sidebar ul:first-child li.selected span a {
+	background-color:#fff;
+	color:#ec7500;
+}
+.body .about div.sidebar ul:first-child li span a {
+	color:#6a7578;
+	display:block;
+	font-size:14px;
+	letter-spacing:.025em;
+	line-height:88px;
+	text-decoration:none;
+	text-indent:28px;
+	text-transform:uppercase;
+	width:189px;
+}
+.body .about div.sidebar ul:first-child li:hover {
+	background-color:#fff;
+}
+.body .about div.sidebar div {
+	background:none;
+	border:0;
+	width:auto;
+}
+.body .about div.sidebar div h3 {
+	color:#ff8b00;
+	font-size:16px;
+	font-weight:400;
+	letter-spacing:.025em;
+	line-height:24px;
+	margin:14px 0 8px;
+	text-transform:uppercase;
+}
+.body .about div.sidebar div ul {
+	background-color:#FFF;
+	border:1px solid #DFE1E4;
+	border-radius:10px 10px 10px 10px;
+	list-style:none;
+	margin:0;
+	padding:0 0 9px;
+	width:347px;
+}
+.body .about div.sidebar div ul li {
+	border-top:1px solid #DFE1E4;
+	padding:40px 0 18px;
+	position:relative;
+}
+.body .about div.sidebar div ul li a {
+	display:block;
+	float:left;
+	margin:17px 10px 0 19px;
+}
+.body .about div.sidebar div ul li p a.more {
+	display: inline;
+	font-size: 14px;
+	text-decoration: none;
+	color: #6B7073;
+	border: 0 none;
+	padding: 0;
+	letter-spacing: 0.05em;
+	line-height: 18px;
+	text-align: center;
+}
+.body .about div.sidebar div ul li h2 {
+	color:#444;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	font-weight:400;
+	letter-spacing:.05em;
+	line-height:24px;
+	margin:10px 19px 0 19px;
+}
+.body .about div.sidebar div ul li h2 a {
+	color:#444;
+	display:inline;
+	float:none;
+	margin:0;
+}
+.body .about div.sidebar div ul li p {
+	margin:0 19px 0 19px;
+}
+.body .about div.sidebar div ul li p a {
+	margin:0;
+	float:none;
+	display:inline;
+}
+.body .violin .content div:first-child div {
+	float:left;
+	margin:0 19px;
+	padding:19px 0 0;
+	width:289px;
+}
+.body .drums .content div:first-child {
+	border-bottom:1px solid #dfe1e4;
+	overflow:hidden;
+	padding:0 0 31px;
+	width:788px;
+}
+.body .drums .content div:first-child div {
+	float:left;
+	margin:0 19px;
+	padding:0;
+	width:289px;
+}
+.body .blog {
+	margin:-10px 0 0;
+	overflow:hidden;
+}
+.body .blog .section:first-child {
+	margin:0;
+	overflow:hidden;
+}
+.body .blog .section:first-child div:first-child {
+	background:none;
+	border:0;
+	border-radius:0;
+	margin:0;
+	padding:0;
+	width:auto;
+}
+.body .blog .section:first-child div:first-child h2 {
+	color:#ff8b00;
+	font-size:16px;
+	font-weight:400;
+	letter-spacing:.025em;
+	line-height:24px;
+	margin:0 0 11px;
+	text-transform:uppercase;
+}
+.body .blog .section:first-child div:first-child div {
+	background-color:#FFF;
+	border:1px solid #DFE1E4;
+	border-radius:10px 10px 10px 10px;
+	float:left;
+	margin:0 20px 0 0;
+	padding:20px 29px 24px 19px;
+	width:419px;
+}
+.body .blog .section:first-child div {
+	background-color:#FFF;
+	border:1px solid #DFE1E4;
+	border-radius:10px 10px 10px 10px;
+	float:left;
+	margin:35px 0 0;
+	padding:20px 19px 24px;
+	position:relative;
+	width:430px;
+	min-height: 423px;
+}
+.body .blog .section:first-child div h3 {
+	color:#444;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	font-weight:400;
+	letter-spacing:.05em;
+	line-height:24px;
+	margin:34px 0 5px;
+	text-align:justify;
+	width:390px;
+}
+.body .blog .section:first-child div h3 a {
+	color:#444;
+}
+.body .blog .section:first-child div h3 a:hover {
+	color: #FF8B00;
+}
+.body .blog .section:first-child div p a.more:hover {
+	color:#FF8B00!important;
+}
+.body .blog .section:first-child div p a.more {
+	color:#6B7073;
+	display:inline;
+	font-size:14px;
+	text-decoration:none;
+}
+.body .blog .section:first-child div div h3 {
+	color:#444;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	font-weight:400;
+	letter-spacing:.05em;
+	line-height:24px;
+	margin:34px 0 5px;
+	text-align:justify;
+	width:390px;
+}
+.body .blog .section:first-child div div img {
+	border:1px solid #b3b7bb;
+	float:left;
+	margin:0 20px 0 0;
+}
+.body .blog .section {
+	margin:32px 0 0;
+	overflow:hidden;
+}
+.body .blog .section div:first-child {
+	float:left;
+	margin:0 20px 0 0;
+	overflow:hidden;
+	width:628px;
+}
+.body .blog .section div:first-child div {
+	background-color:#FFF;
+	border:1px solid #DFE1E4;
+	border-radius:10px 10px 10px 10px;
+	padding:0 0 2px;
+	width:auto;
+}
+.body .blog .section div:first-child div ul {
+	border-color:#DFE1E4;
+	border-radius:0 0 10px 10px;
+	border-style:solid none none;
+	border-width:1px;
+	list-style:none;
+	margin:0;
+	overflow:hidden;
+	padding:0;
+}
+.body .blog .section div:first-child div ul li {
+	border-left:1px solid #e1e3e6;
+	border-top:0;
+	float:left;
+	padding:59px 18px 20px;
+	position:relative;
+	width:276px;
+}
+.body .blog .section div:first-child div ul li span {
+	border-bottom:2px solid #FF8B00;
+	color:#6B7073;
+	display:inline;
+	font-size:14px;
+	left:0;
+	letter-spacing:.05em;
+	line-height:24px;
+	padding:0 0 1px 17px;
+	position:absolute;
+	top:14px;
+	width:70px;
+}
+.body .blog .section div:first-child div ul li h3 {
+	color:#444;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	font-weight:400;
+	letter-spacing:.05em;
+	line-height:24px;
+	margin:0 0 5px;
+	text-align:left;
+}
+.body .blog .section div:first-child div ul li h3 a {
+	color:#444;
+}
+.body .blog .section div:first-child div ul li h3 a:hover {
+	color: #FF8B00;
+}
+.body .blog .section div:first-child div ul li p {
+	color:#6B7073;
+	font-size:14px;
+	letter-spacing:.05em;
+	line-height:24px;
+	margin:-7px 0 0;
+	text-align:left;
+}
+.body .blog .section div:first-child div ul li p a {
+	color:#6B7073;
+}
+.body .blog .section div:first-child div ul li p a:hover {
+	color: #FF8B00;
+}
+.body .blog .section div div ul li p a.more {
+	color:#6B7073;
+	display:inline;
+	font-size:14px;
+	text-decoration:none;
+}
+.body .blog .section div {
+	float:left;
+	width:312px;
+}
+.body .blog .section div ul {
+	background-color:#FFF;
+	border:1px solid #DFE1E4;
+	border-radius:10px 10px 10px 10px;
+	color:#6B7073;
+	font-size:12px;
+	list-style:disc inside none;
+	margin:0;
+	padding:0;
+}
+.body .blog-single div:first-child {
+	background:none;
+	border:0;
+	border-radius:0;
+	float:left;
+	margin:0 20px 0 0;
+	width:630px;
+}
+.body .blog-single div:first-child div {
+	background-color:#FFF;
+	border:1px solid #DFE1E4;
+	border-radius:10px 10px 10px 10px;
+	padding:0 20px 88px;
+	position:relative;
+	width:auto;
+}
+.body .blog-single div:first-child div h3 {
+	color:#444;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	font-weight:400;
+	letter-spacing:.05em;
+	line-height:30px;
+	margin:52px 0 2px;
+	text-align:justify;
+	width:auto;
+}
+.body .blog-single div:first-child div img {
+	border:1px solid #B3B7BB;
+	margin:18px 0 10px;
+}
+.body .blog-single div:first-child div.navigation {
+	background:none;
+	border:0;
+	border-radius:0;
+	margin:11px 0 0;
+	padding:0;
+}
+.body .blog-single div:first-child div.navigation a:first-child {
+	height:26px;
+	margin:0 15px 0 0;
+	width:80px;
+}
+.body .blog-single div:first-child div.navigation a {
+	background-color:#abaeb0;
+	border-radius:5px;
+	color:#fff;
+	display:inline-block;
+	height:26px;
+	letter-spacing:.05em;
+	line-height:24px;
+	text-align:center;
+	text-decoration:none;
+	width:50px;
+}
+.body .blog-single div:first-child div.navigation a:hover {
+	text-decoration:none!important;
+	background-color:#6b7073;
+}
+.body .blog-single div {
+	float:left;
+	width:308px;
+}
+.body .blog-single div div:first-child {
+	float:none;
+	margin:0;
+	width:auto;
+}
+.body .blog-single div div:first-child div.nav {
+	background:none;
+	border:0;
+	border-radius:0;
+	margin:-5px 0 8px;
+	padding:0;
+}
+.body .blog-single div div:first-child div.nav a:first-child {
+	color:#FF8B00;
+	margin:0;
+}
+.body .blog-single div div:first-child div.nav a {
+	color:#81878e;
+	font-size:16px;
+	font-weight:400;
+	letter-spacing:.025em;
+	line-height:24px;
+	margin:0 0 0 15px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+.body .blog-single div div:first-child ul {
+	background-color:#FFF;
+	border:1px solid #DFE1E4;
+	border-radius:10px 10px 10px 10px;
+	list-style:none;
+	margin:3px 0 0;
+}
+.body .blog-single div div:first-child ul li {
+	padding:57px 18px 10px;
+	position:relative;
+}
+.body .blog-single div div:first-child ul li img {
+	border:1px solid #B3B7BB;
+	float:left;
+	margin:0 10px 0 0;
+}
+.body .blog-single div div:first-child ul li h3 {
+	color:#444;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	font-weight:400;
+	letter-spacing:.05em;
+	line-height:24px;
+	margin:0;
+	text-align:justify;
+	width:auto;
+}
+.body .blog-single div ul {
+	background-color:#FFF;
+	border:1px solid #DFE1E4;
+	border-radius:10px 10px 10px 10px;
+	color:#6B7073;
+	font-size:14px;
+	list-style:disc inside none;
+	margin:0;
+	padding:0;
+}
+.body .blog-single div ul li p {
+	line-height:24px;
+	letter-spacing:0.05em;
+	margin:0;
+}
+.body .blog-single div div {
+	margin:29px 0 0;
+}
+.body .contact div:first-child {
+	background-color:#FFF;
+	border:1px solid #DFE1E4;
+	border-radius:10px 10px 10px 10px;
+	margin:0;
+	padding:0;
+}
+.body .contact div:first-child div:first-child {
+	background:none;
+	border:0;
+	border-bottom:1px solid #DFE1E4;
+	border-radius:0;
+	padding:0 20px;
+}
+.body .contact div:first-child div:first-child h1 {
+	color:#ec7500;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:48px;
+	font-weight:400;
+	letter-spacing:.025em;
+	margin:17px 0 19px;
+}
+.body .contact div:first-child div:first-child p {
+	color:#6b7073;
+	font-size:14px;
+	letter-spacing:.05em;
+	line-height:24px;
+	margin:0 0 30px;
+	text-align:justify;
+}
+.body .contact div:first-child div {
+	border-color:#DFE1E4;
+	border-radius:0;
+	border-style:none none solid;
+	border-width:1px;
+	margin:0;
+	overflow:hidden;
+	padding:0 20px 30px;
+}
+.body .contact div:first-child div h4 {
+	color:#444;
+	font-size:14px;
+	font-weight:400;
+	letter-spacing:.05em;
+	line-height:24px;
+	margin:18px 0 0;
+	text-transform:uppercase;
+}
+.body .contact div:first-child div ul {
+	color:#444;
+	font-size:10px;
+	list-style:inside;
+	margin:1px 0 0;
+	overflow:hidden;
+	padding:0 0 0 2px;
+}
+.body .contact div:first-child div ul li {
+	float:none;
+}
+.body .contact div:first-child div ul li > a {
+	color:#444;
+	display:inline;
+	font-size:14px;
+	font-weight:400;
+	letter-spacing:.05em;
+	line-height:24px;
+	margin:0;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+.body .contact div:first-child div ul li > a:hover {
+	color:#ff8b00;
+	text-decoration:none;
+}
+.body .contact div:first-child div ul li p {
+	color:#6b7073;
+	font-size:14px;
+	letter-spacing:.05em;
+	line-height:24px;
+	margin:-1px 0 0 12px;
+	width:420px;
+}
+.body .contact div:first-child div ul li p a {
+	color:#6b7073;
+}
+.body .contact div:first-child div ul li p a:hover {
+	color: #FF8B00;
+}
+.body .contact div:first-child div ul.last {
+	float:right;
+}
+.body .contact div:first-child div ul.last li p {
+	width:425px;
+}
+.body .contact div:first-child ul.section {
+	list-style:none;
+	margin:0;
+	overflow:hidden;
+	padding:0;
+}
+.body .contact div:first-child ul.section li {
+	border-left:1px solid #DFE1E4;
+	float:left;
+	min-height:140px;
+	overflow:hidden;
+	padding:0 20px;
+	width:275px;
+}
+.body .contact div:first-child ul.section li span {
+	color:#444;
+	display:block;
+	font-size:14px;
+	font-weight:400;
+	letter-spacing:.05em;
+	line-height:24px;
+	margin:17px 0 0;
+	text-transform:uppercase;
+}
+.body .contact div:first-child ul.section li p {
+	color:#6B7073;
+	font-size:14px;
+	letter-spacing:.05em;
+	line-height:24px;
+	margin:0;
+}
+.body .contact div:first-child ul.section li p a {
+	display:inline;
+}
+.body .contact div:first-child ul.section li a {
+	color:#6B7073;
+	display:block;
+	font-size:14px;
+	letter-spacing:.05em;
+	line-height:24px;
+}
+.body .contact div:first-child ul.section li a:hover {
+	color: #FF8B00;
+}
+.body .contact div {
+	background-color:#FFF;
+	border:1px solid #DFE1E4;
+	border-radius:10px 10px 10px 10px;
+	margin:32px 0 0;
+	padding:0 20px;
+}
+.body .contact div h4 {
+	color:#58595b;
+	font-size:14px;
+	font-weight:400;
+	letter-spacing:.05em;
+	line-height:24px;
+	margin:19px 0 0;
+	text-transform:uppercase;
+}
+.body .contact div form {
+	overflow:hidden;
+	padding:0 0 34px;
+}
+.body .contact div form div:first-child {
+	border:0;
+	border-radius:0;
+	width:349px;
+}
+.body .contact div form div:first-child input {
+	border:1px solid #D8D8D8;
+	color:#6B7073;
+	display:block;
+	font-family:Arial, Helvetica, sans-serif!important;
+	font-size:13px;
+	height:28px;
+	line-height:26px;
+	margin:0 0 5px;
+	padding:0 5px;
+	width:311px;
+}
+.body .contact div form div {
+	background:none;
+	border:0;
+	border-radius:0;
+	float:left;
+	margin:0;
+	padding:0;
+}
+.body .contact div form div textarea {
+	border:1px solid #D8D8D8;
+	color:#6B7073;
+	display:block;
+	font-family:Arial, Helvetica, sans-serif!important;
+	font-size:13px;
+	height:160px;
+	margin:0 0 9px;
+	overflow:auto;
+	padding:5px;
+	resize:none;
+	width:556px;
+}
+.body .contact div form div input#submit {
+	background-color:#b4b7b9;
+	border:0;
+	border-radius:5px;
+	color:#fff;
+	cursor:pointer;
+	font-size:14px;
+	height:25px;
+	letter-spacing:.075em;
+	line-height:22px;
+	text-align:center;
+	width:130px;
+}
+.body .home, .body .about, .body .programs, .body .violin, .body .saxophone, .body .guitar, .body .drums, .body .voice-lesson, .body .blog-single {
+	overflow:hidden;
+}
+.body .home .content .featured div p:first-child a, .body .home .content .featured div p a {
+	color:#fff;
+}
+.body .home .content .featured p a, .body .blog .section:first-child div div h3 a, .body .blog-single div:first-child div h3 a, .body .blog-single div div:first-child ul li h3 a {
+	color:#444;
+}
+.body .home .content .featured p a:hover, .body .about div div p a:hover, .body .about div.sidebar ul:first-child li:hover span a, .body .about div.sidebar div ul li h2 a:hover, .body .programs ul li.selected a, .body .programs ul li a:hover, .body .programs ul li:hover a, .body .violin ul li.selected a, .body .violin ul li a:hover, .body .violin ul li:hover a, .body .saxophone ul li.selected a, .body .saxophone ul li a:hover, .body .saxophone ul li:hover a, .body .guitar ul li.selected a, .body .guitar ul li a:hover, .body .guitar ul li:hover a, .body .drums ul li.selected a, .body .drums ul li a:hover, .body .drums ul li:hover a, .body .voice-lesson ul li.selected a, .body .voice-lesson ul li a:hover, .body .voice-lesson ul li:hover a, .body .contact div:first-child div:first-child p a:hover {
+	color:#ec7500;
+}
+.body .saxophone ul li:first-child:hover, .body .programs ul li:first-child:hover, .body .programs ul li:first-child.selected, .body .violin ul li:first-child:hover, .body .guitar ul li:first-child:hover, .body .drums ul li:first-child:hover, .body .voice-lesson ul li:first-child:hover {
+	border-radius:10px 10px 0 0;
+}
+.body .home .content .section ul li a:first-child:hover, .body .blog-single div:first-child div.navigation a:hover, .body .blog-single div div:first-child div.nav a:hover {
+	text-decoration:underline;
+}
+.body .home .content .section ul li a img, .body .programs .content div:first-child a img, .body .violin .content div:first-child a img, .body .saxophone .content div:first-child a img, .body .guitar .content div:first-child a img, .body .drums .content div:first-child a img, .body .voice-lesson .content div:first-child a img {
+	border:1px solid #8a9197;
+}
+.body .home .content .section ul li a img:hover, .body .about div.sidebar ul:first-child li a img:hover {
+	filter:alpha(opacity=80);/* Needed for IE7 */
+	opacity:0.8;
+}
+.body .home .sidebar ul li a img, .body .about div.sidebar div ul li a img {
+	border:1px solid #b3b7bb;
+}
+.body .home .sidebar ul li p a, .body .about div div p a, .body .contact div:first-child div:first-child p a {
+	color:#6b7073;
+}
+.body .home .sidebar ul li a.more:hover {
+	color:#ff8b00;
+	text-decoration:underline;
+}
+.body .home .sidebar a:hover {
+	color:#ff8b00;
+	text-decoration:none;
+}
+.body .about div div:first-child, .body .programs ul li:first-child, .body .violin ul li:first-child, .body .saxophone ul li:first-child, .body .guitar ul li:first-child, .body .drums ul li:first-child, .body .voice-lesson ul li:first-child, .body .blog .section div:first-child div ul:first-child {
+	border:0;
+	border-radius:10px 10px 0 0;
+}
+.body .about div.sidebar ul:first-child li span, .body .about div.sidebar ul:first-child li a, .body .contact div:first-child div ul.first {
+	float:left;
+}
+.body .about div.sidebar div ul li:first-child, .body .blog .section div:first-child div ul li:first-child, .body .blog .section div ul li:first-child, .body .blog-single div ul li:first-child, .body .contact div:first-child ul.section li:first-child {
+	border:0;
+}
+.body .about div.sidebar div ul li span, .body .blog-single div div:first-child ul li span {
+	border-bottom:2px solid #FF8B00;
+	color:#6B7073;
+	display:inline;
+	font-size:14px;
+	left:0;
+	letter-spacing:.05em;
+	line-height:24px;
+	padding:0 0 1px 17px;
+	position:absolute;
+	top:9px;
+	width:70px;
+}
+.body .programs ul, .body .violin ul, .body .saxophone ul, .body .guitar ul, .body .drums ul, .body .voice-lesson ul {
+	background-color:#d0d4d7;
+	border:1px solid #dfe1e4;
+	border-radius:10px;
+	float:left;
+	list-style:none;
+	margin:0 19px 0 0;
+	padding:0;
+	width:148px;
+}
+.body .programs ul li.selected, .body .programs ul li:hover, .body .violin ul li.selected, .body .violin ul li:hover, .body .saxophone ul li.selected, .body .saxophone ul li:hover, .body .guitar ul li.selected, .body .guitar ul li:hover, .body .drums ul li.selected, .body .drums ul li:hover, .body .voice-lesson ul li.selected, .body .voice-lesson ul li:hover {
+	background-color:#fff;
+	border-radius:0;
+}
+.body .programs ul li.last:hover, .body .violin ul li.last:hover, .body .saxophone ul li.last:hover, .body .guitar ul li.last:hover, .body .drums ul li.last:hover, .body .voice-lesson ul li.selected.last, .body .voice-lesson ul li.last:hover {
+	border-radius:0 0 10px 10px;
+}
+.body .programs ul li, .body .violin ul li, .body .saxophone ul li, .body .guitar ul li, .body .drums ul li, .body .voice-lesson ul li {
+	border-top:1px solid #dfe1e4;
+}
+.body .programs ul li a, .body .violin ul li a, .body .saxophone ul li a, .body .guitar ul li a, .body .drums ul li a, .body .voice-lesson ul li a {
+	color:#6a7578;
+	display:block;
+	font-size:14px;
+	letter-spacing:.025em;
+	line-height:24px;
+	padding:14px 0 10px 19px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+.body .programs .content, .body .violin .content, .body .saxophone .content, .body .guitar .content, .body .drums .content, .body .voice-lesson .content {
+	background-color:#FFF;
+	border:1px solid #DFE1E4;
+	border-radius:10px 10px 10px 10px;
+	float:left;
+	padding:17px 0 0;
+	width:788px;
+}
+.body .programs .content div:first-child, .body .guitar .content div:first-child, .body .voice-lesson .content div:first-child {
+	border-bottom:1px solid #dfe1e4;
+	overflow:hidden;
+	padding:0 0 18px;
+	width:788px;
+}
+.body .programs .content div:first-child h2, .body .violin .content div:first-child h2, .body .guitar .content div:first-child h2, .body .drums .content div:first-child h2 {
+	color:#EC7500;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:30px;
+	font-weight:400;
+	letter-spacing:.025em;
+	line-height:48px;
+	margin:0 18px 0 19px;
+	width:auto;
+}
+.body .programs .content div:first-child h2 a, .body .violin .content div:first-child h2 a, .body .saxophone .content div:first-child h2 a, .body .guitar .content div:first-child h2 a, .body .drums .content div:first-child h2 a, .body .voice-lesson .content div:first-child h2 a {
+	color:#EC7500;
+	display:inline;
+	float:none;
+	margin:0;
+	padding:0;
+}
+.body .programs .content div:first-child div, .body .guitar .content div:first-child div {
+	float:left;
+	margin:0 19px;
+	padding:0;
+	width:350px;
+}
+.body .programs .content div:first-child div p, .body .guitar .content div:first-child div p, .body .drums .content div:first-child div p {
+	color:#6B7073;
+	font-size:14px;
+	letter-spacing:.05em;
+	line-height:24px;
+	margin:19px 0 24px;
+	text-align:justify;
+}
+.body .programs .content div:first-child div p a, .body .violin .content div:first-child div p a, .body .saxophone .content div:first-child div p a, .body .guitar .content div:first-child div p a, .body .drums .content div:first-child div p a, .body .voice-lesson .content div:first-child div p a {
+	color:#6B7073;
+	display:inline;
+	float:none;
+	margin:0;
+}
+.body .programs .content div:first-child div p a:hover, .body .violin .content div:first-child div p a:hover, .body .saxophone .content div:first-child div p a:hover, .body .guitar .content div:first-child div p a:hover, .body .drums .content div:first-child div p a:hover, .body .voice-lesson .content div:first-child div p a:hover {
+	color:#EC7500;
+}
+.body .programs .content div:first-child a, .body .violin .content div:first-child a, .body .saxophone .content div:first-child a, .body .guitar .content div:first-child a, .body .drums .content div:first-child a, .body .voice-lesson .content div:first-child a {
+	display:block;
+	float:left;
+	margin:26px 30px 0 0;
+}
+.body .programs .content div.section, .body .violin .content div.section, .body .saxophone .content div.section, .body .guitar .content div.section, .body .drums .content div.section, .body .voice-lesson .content div.section {
+	border-right:1px solid #DFE1E4;
+	float:left;
+	padding:15px 0 54px 19px;
+	width:500px;
+}
+.body .programs .content div.section div:first-child, .body .programs .content div ul li:first-child, .body .violin .content div.section div:first-child, .body .violin .content div ul li:first-child, .body .saxophone .content div.section div:first-child, .body .saxophone .content div ul li:first-child, .body .guitar .content div.section div:first-child, .body .guitar .content div ul li:first-child, .body .drums .content div.section div:first-child, .body .drums .content div ul li:first-child, .body .voice-lesson .content div.section div:first-child, .body .voice-lesson .content div ul li:first-child {
+	margin:0;
+}
+.body .programs .content div.section div, .body .violin .content div.section div, .body .saxophone .content div.section div, .body .guitar .content div.section div, .body .drums .content div.section div, .body .voice-lesson .content div.section div {
+	border:0;
+	margin:24px 0 0;
+	padding:0 30px 0 0;
+	width:auto;
+}
+.body .programs .content div.section div h4, .body .violin .content div.section div h4, .body .saxophone .content div.section div h4, .body .guitar .content div.section div h4, .body .drums .content div.section div h4, .body .voice-lesson .content div.section div h4 {
+	color:#6B7073;
+	font-size:14px;
+	font-weight:700;
+	letter-spacing:.05em;
+	line-height:24px;
+	margin:0;
+	text-align:justify;
+	text-transform:uppercase;
+}
+.body .programs .content div.section div span, .body .programs .content div.section div p, .body .violin .content div.section div span, .body .violin .content div.section div p, .body .saxophone .content div.section div span, .body .saxophone .content div.section div p, .body .guitar .content div.section div span, .body .guitar .content div.section div p, .body .drums .content div.section div span, .body .drums .content div.section div p, .body .voice-lesson .content div.section div span, .body .voice-lesson .content div.section div p, .body .blog-single div:first-child div p {
+	color:#6B7073;
+	font-size:14px;
+	letter-spacing:.05em;
+	line-height:24px;
+	margin:0;
+	text-align:justify;
+}
+.body .programs .content div.section div p a, .body .violin .content div.section div p a, .body .saxophone .content div.section div p a, .body .guitar .content div.section div p a, .body .drums .content div.section div p a, .body .voice-lesson .content div.section div p a, .body .blog-single div:first-child div p a {
+	margin:0;
+	float:none;
+	display:inline;
+	color:#6B7073;
+}
+.body .programs .content div.section div p a:hover, .body .violin .content div.section div p a:hover, .body .saxophone .content div.section div p a:hover, .body .guitar .content div.section div p a:hover, .body .drums .content div.section div p a:hover, .body .voice-lesson .content div.section div p a:hover, .body .blog-single div:first-child div p a:hover {
+	color: #FF8B00;
+}
+.body .programs .content div, .body .violin .content div, .body .saxophone .content div, .body .guitar .content div, .body .drums .content div, .body .voice-lesson .content div {
+	float:left;
+	padding:15px 27px 54px 19px;
+	width:221px;
+}
+.body .programs .content div h4, .body .violin .content div h4, .body .saxophone .content div h4, .body .guitar .content div h4, .body .drums .content div h4, .body .voice-lesson .content div h4 {
+	color:#6B7073;
+	font-size:14px;
+	font-weight:700;
+	letter-spacing:.05em;
+	line-height:24px;
+	margin:0;
+	text-align:justify;
+	text-transform:uppercase;
+}
+.body .programs .content div ul, .body .violin .content div ul, .body .saxophone .content div ul, .body .guitar .content div ul, .body .drums .content div ul, .body .voice-lesson .content div ul {
+	background:none!important;
+	border:0;
+	margin:0;
+	width:auto;
+}
+.body .programs .content div ul li, .body .violin .content div ul li, .body .saxophone .content div ul li, .body .guitar .content div ul li, .body .drums .content div ul li, .body .voice-lesson .content div ul li {
+	border:0;
+	margin:24px 0 0;
+}
+.body .programs .content div ul li span:first-child, .body .violin .content div ul li span:first-child, .body .saxophone .content div ul li span:first-child, .body .guitar .content div ul li span:first-child, .body .drums .content div ul li span:first-child, .body .voice-lesson .content div ul li span:first-child {
+	text-align:left;
+}
+.body .programs .content div ul li span, .body .violin .content div ul li span, .body .saxophone .content div ul li span, .body .guitar .content div ul li span, .body .drums .content div ul li span, .body .voice-lesson .content div ul li span {
+	color:#6B7073;
+	display:block;
+	font-size:14px;
+	letter-spacing:.05em;
+	line-height:24px;
+	margin:0;
+	text-align:right;
+}
+.body .programs .content div ul li span span:first-child, .body .violin .content div ul li span span:first-child, .body .saxophone .content div ul li span span:first-child, .body .guitar .content div ul li span span:first-child, .body .drums .content div ul li span span:first-child, .body .voice-lesson .content div ul li span span:first-child {
+	display:inline-block;
+	width:70px;
+}
+.body .violin .content div:first-child, .body .saxophone .content div:first-child {
+	border-bottom:1px solid #dfe1e4;
+	overflow:hidden;
+	padding:0 0 30px;
+	width:788px;
+}
+.body .violin .content div:first-child div h3, .body .saxophone .content div:first-child div h3, .body .voice-lesson .content div:first-child div h3 {
+	color:#444;
+	font-size:14px;
+	font-weight:400;
+	letter-spacing:.05em;
+	line-height:24px;
+	margin:0;
+	text-align:justify;
+}
+.body .violin .content div:first-child div h3 a, .body .saxophone .content div:first-child div h3 a, .body .voice-lesson .content div:first-child div h3 a {
+	margin:0;
+	display:inline;
+	float:none;
+	color:#444;
+}
+.body .violin .content div:first-child div h3 a:hover, .body .saxophone .content div:first-child div h3 a:hover, .body .voice-lesson .content div:first-child div h3 a:hover {
+	color: #FF8B00;
+}
+.body .violin .content div:first-child div p, .body .saxophone .content div:first-child div p, .body .voice-lesson .content div:first-child div p {
+	color:#6B7073;
+	font-size:14px;
+	letter-spacing:.05em;
+	line-height:24px;
+	margin:0 0 24px;
+	text-align:justify;
+}
+.body .saxophone .content div:first-child h2, .body .voice-lesson .content div:first-child h2 {
+	color:#EC7500;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:30px;
+	font-weight:400;
+	letter-spacing:.025em;
+	line-height:48px;
+	margin:0 0 19px;
+	width:auto;
+}
+.body .saxophone .content div:first-child div:first-child, .body .voice-lesson .content div:first-child div:first-child {
+	border:0;
+	float:left;
+	margin:0 34px 0 19px;
+	padding:0;
+	width:335px;
+}
+.body .saxophone .content div:first-child div, .body .voice-lesson .content div:first-child div {
+	border:0;
+	float:left;
+	margin:12px 30px 0 0;
+	overflow:hidden;
+	padding:0;
+	width:370px;
+}
+.body .saxophone .content div:first-child div a, .body .voice-lesson .content div:first-child div a {
+	float:none;
+	margin:0 0 25px;
+}
+.body .blog .section:first-child div span, .body .blog .section:first-child div div span, .body .blog-single div:first-child div span {
+	border-bottom:2px solid #FF8B00;
+	color:#6B7073;
+	display:inline;
+	font-size:14px;
+	left:0;
+	letter-spacing:.05em;
+	line-height:24px;
+	padding:0 0 1px 17px;
+	position:absolute;
+	top:13px;
+	width:70px;
+}
+.body .blog .section:first-child div img, .body .blog .section div:first-child div ul li img {
+	border:1px solid #B3B7BB;
+	float:left;
+	margin:0 20px 0 0;
+}
+.body .blog .section:first-child div p, .body .blog .section:first-child div div p {
+	color:#6B7073;
+	font-size:14px;
+	letter-spacing:.05em;
+	line-height:24px;
+	margin:0;
+	text-align:justify;
+}
+.body .blog .section:first-child div div > a, .body .blog .section:first-child div > a {
+	color:#6b7073;
+	text-decoration:none;
+	font-size:14px;
+	line-height:24px;
+	letter-spacing:0.05em;
+}
+.body .blog .section:first-child div div > a:hover, .body .blog .section:first-child div > a:hover {
+	color:#ff8b00;
+}
+.body .blog .section:first-child div p a, .body .blog .section:first-child div div p a {
+	color:#6B7073;
+}
+.body .blog .section:first-child div p a:hover, .body .blog .section:first-child div div p a:hover {
+	color: #FF8B00;
+}
+.body .blog .section:first-child div div h3 a:hover, .body .blog .section:first-child div div p a:hover, .body .blog .section div div ul li p a.more:hover, .body .blog-single div:first-child div h3 a:hover, .body .blog-single div:first-child div p a:hover, .body .blog-single div div:first-child ul li h3 a:hover {
+	color:#FF8B00;
+}
+.body .blog .section:first-child div div p a, .body .blog-single div:first-child div p a {
+	color:#6B7073;
+}
+.body .blog .section div:first-child h2, .body .blog .section div h2, .body .blog-single div h2 {
+	color:#FF8B00;
+	font-size:16px;
+	font-weight:400;
+	letter-spacing:.025em;
+	line-height:24px;
+	margin:0 0 9px;
+	text-transform:uppercase;
+}
+.body .blog .section div ul li, .body .blog-single div ul li {
+	border-top:1px solid #E1E3E6;
+	padding:13px 24px;
+}
+.body .blog .section div ul li a, .body .blog-single div ul li a {
+	color:#6B7073;
+	display:inline;
+	font-size:14px;
+	letter-spacing:.05em;
+	line-height:24px;
+	margin:0;
+	text-align:left;
+	text-decoration:none;
+}
+.body .blog .section div ul li a:hover, .body .blog-single div ul li a:hover {
+	text-decoration:underline;
+}
+.body .blog .section div ul li p a, .body .blog-single div ul li p a {
+	color:#6B7073;
+}
+.body .blog .section div ul li p a:hover, .body .blog-single div ul li p a:hover {
+	color: #FF8B00;
+}
+.body .contact div form div:first-child label, .body .contact div form div label {
+	color:#6B7073;
+	display:block;
+	font-size:14px;
+	height:36px;
+	letter-spacing:.075em;
+	line-height:37px;
+}
+/*------------------------- Footer ------------------------*/
+.footer {
+	overflow:hidden;
+}
+.footer .about {
+	float:left;
+	margin:0 20px 0 0;
+	min-height:140px;
+	padding:40px 0 0;
+	width:465px;
+}
+.footer .about div {
+	background-color:#fff;
+	border:1px solid #dfe1e4;
+	border-radius:10px;
+	overflow:hidden;
+	padding:19px 20px 19px 19px;
+}
+.footer .about div a {
+	border:1px solid #d3d3d3;
+	display:inline-block;
+	float:left;
+	margin:0 15px 0 0;
+}
+.footer .about div p {
+	color:#6b7073;
+	float:left;
+	font-size:14px;
+	letter-spacing:.05em;
+	line-height:23px;
+	margin:-6px 0 0;
+	width:189px;
+}
+.footer .about div a.more {
+	color: #6B7073;
+	display: inline;
+	font-size: 14px;
+	text-decoration: none;
+	border:0;
+	line-height:24px;
+}
+.footer .about div a.more:hover {
+	color:#ff8b00;
+}
+.footer .about div p a {
+	border:0;
+	color:#6b7073;
+	float: none;
+	margin: 0;
+}
+.footer .contact {
+	float:left;
+	margin:0;
+	min-height:140px;
+	padding:40px 0 0;
+	width:475px;
+}
+.footer .contact ul {
+	background-color:#fff;
+	border:1px solid #dfe1e4;
+	border-radius:10px;
+	list-style:none;
+	margin:0;
+	overflow:hidden;
+	padding:0 0 3px;
+}
+.footer .contact ul li:first-child {
+	border:0;
+}
+.footer .contact ul li {
+	border-top:1px solid #dfe1e4;
+	overflow:hidden;
+	padding:13px 19px 0;
+}
+.footer .contact ul li span {
+	color:#6b7073;
+	float:left;
+	font-size:14px;
+	letter-spacing:.05em;
+	line-height:23px;
+	margin:0;
+}
+.footer .contact ul li p {
+	color:#6b7073;
+	float:left;
+	font-size:14px;
+	letter-spacing:.05em;
+	line-height:23px;
+	margin:0 0 14px 4px;
+	width:355px;
+}
+.footer .contact ul li p a {
+	color:#6b7073;
+}
+.footer .connect {
+	clear:both;
+	float:left;
+	margin:0 0 45px;
+	overflow:hidden;
+	padding:34px 0 0;
+}
+.footer .connect a#twitter {
+	background:url(../images/icons.png) no-repeat;
+	color:#8d8d8d;
+	display:block;
+	float:left;
+	font-size:12px;
+	height:21px;
+	letter-spacing:.05em;
+	line-height:24px;
+	margin:0 28px 0 0;
+	padding:0 0 0 35px;
+	text-decoration:none;
+}
+.footer .connect a#twitter:hover {
+	background:url(../images/icons.png) no-repeat 0 -22px;
+}
+.footer .connect a#facebook {
+	background:url(../images/icons.png) no-repeat 0 -44px;
+	color:#8d8d8d;
+	display:block;
+	float:left;
+	font-size:12px;
+	height:21px;
+	letter-spacing:.05em;
+	line-height:24px;
+	padding:0 0 0 17px;
+	text-decoration:none;
+	margin:0 28px 0 0;
+}
+.footer .connect a#facebook:hover {
+	background:url(../images/icons.png) no-repeat 0 -66px;
+}
+.footer .connect a#googleplus {
+	background:url(../images/icons.png) no-repeat 0 -88px;
+	color:#8d8d8d;
+	display:block;
+	float:left;
+	font-size:12px;
+	height:21px;
+	letter-spacing:.05em;
+	line-height:24px;
+	padding:0 0 0 26px;
+	text-decoration:none;
+	margin:0 28px 0 0;
+}
+.footer .connect a#googleplus:hover {
+	background:url(../images/icons.png) no-repeat 0 -110px;
+}
+.footer p.footnote {
+	color:#8d8d8d;
+	float:right;
+	font-size:12px;
+	letter-spacing:.05em;
+	line-height:20px;
+	margin:36px 0 0;
+}
+.footer .about h3, .footer .contact h3 {
+	color:#ff8b00;
+	font-size:16px;
+	font-weight:400;
+	letter-spacing:.025em;
+	line-height:24px;
+	margin:0 0 4px;
+	text-transform:uppercase;
+}
+.footer .about div p a:hover, .footer .contact ul li p a:hover {
+	color:#ec7500;
+}
